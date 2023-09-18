@@ -26,6 +26,7 @@ public class Onibus extends BaseTransportes{
         this.codidoItenerario = codidoItenerario;
         this.empresa = empresa;
     }
+    @Override
     public void Imprimir(){
         System.out.println("codigo: "+ this.codigo);
         System.out.println("Nome: "+ this.nome);

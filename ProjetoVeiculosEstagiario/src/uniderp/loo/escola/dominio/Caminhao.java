@@ -26,6 +26,7 @@ public class Caminhao extends BaseTransportes{
         this.pesoTotal = pesoTotal;
         this.tipoImplementos = tipoImplementos;
     }
+    @Override
     public void Imprimir(){
             System.out.println("codigo: "+ this.codigo);
             System.out.println("Nome: "+ this.nome);

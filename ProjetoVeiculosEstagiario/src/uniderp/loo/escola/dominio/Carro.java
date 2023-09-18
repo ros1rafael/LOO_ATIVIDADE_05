@@ -20,6 +20,7 @@ public class Carro extends BaseTransportes{
                 codigoRenavam, portas, eixos);
         this.classificacao = classificacao;
     }
+    @Override
     public void Imprimir(){
         System.out.println("codigo: "+ this.codigo);
         System.out.println("Nome: "+ this.nome);

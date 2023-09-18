@@ -19,6 +19,7 @@ public class Aviao extends VeiculoAereo{
                 tipoCombustivel, nomeProprietario, estadoUF, cidadeUF, tipoVeiculo, qtdeOcupantes, qtdeMotores);
         this.qtdeTurbinas = qtdeTurbinas;
     }
+    @Override
     public void Imprimir(){
         System.out.println("codigo: "+ this.codigo);
         System.out.println("Nome: "+ this.nome);

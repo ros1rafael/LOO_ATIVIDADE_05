@@ -20,6 +20,7 @@ public class Motocicleta extends VeiculoTerrestre {
                 codigoRenavam);
         this.categoria = categoria;
     }
+    @Override
     public void Imprimir(){
         System.out.println("codigo: "+ this.codigo);
         System.out.println("Nome: "+ this.nome);
